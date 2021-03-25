@@ -31,7 +31,9 @@ function removeAllChildNodes(parent) {
         parent.removeChild(parent.firstChild);
     }
 }
-
+const background = document.createElement("div");
+background.classList.add("background-image")
+content.appendChild(background);
 main.appendChild(createHomeContent());
 main_container.appendChild(main)
 content.appendChild(main_container);
