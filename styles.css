@@ -103,7 +103,8 @@ body{
 
   .button-tab:hover{
     border-bottom: 1px solid white;
-    margin-bottom: 0;
+    padding-bottom: 0;
+
   }
 
 
