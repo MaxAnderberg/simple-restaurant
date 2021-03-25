@@ -1,0 +1,128 @@
+body{
+    background-image: url(/images/pexels-photo-461060.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 60%;
+    margin-top: 0;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    top: 0;
+}
+
+.navbar-header{
+    color: white;
+    font-size: 50px;
+}
+
+.content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: auto;
+    width: 100%;
+}
+
+#main{    
+    width: 60%;
+    margin-top: 5%;
+}
+
+.card-container{
+    width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card{
+    /* Add shadows to create the "card" effect */
+    width: 150px;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.4);
+    transition: 0.3s;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 13px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0px 16px 16px 0 rgba(255, 255, 255, 0.2);
+  }
+  
+
+  /* Add some padding inside the card container */
+  .info-container {
+    padding: 2px 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .button-tab{
+    background: none;
+    color: white;
+    border: none;
+    font-size: 18px;
+  }
+
+  .button-tab:hover{
+    border-bottom: 1px solid white;
+  }
+
+
+  #home-img{
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+  }
+
+  .home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .home-container h1 {
+      font-size: 30px;
+      margin: 0;
+      margin-bottom: 20px;
+  }
+
+  .home-container p{
+      font-size: 20px;
+      margin-top: 0px;
+  }
+
+  #contact-us{
+    margin-top: 20px;
+}
+
+
+
