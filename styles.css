@@ -4,6 +4,11 @@ body{
     margin: 0;
     height: 100%;
     background-image: url(https://images.unsplash.com/photo-1528735602780-2552fd46c7af?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2853&q=80);
+    text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
 }
 
 #content{
@@ -43,14 +48,6 @@ body{
 #main{    
     width: 60%;
     margin-top: 5%;
-}
-
-#main p {
-    text-shadow:
-    0.07em 0 black,
-    0 0.07em black,
-    -0.07em 0 black,
-    0 -0.07em black;
 }
 
 .card-container{
@@ -97,10 +94,16 @@ body{
     color: white;
     border: none;
     font-size: 18px;
+    text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
   }
 
   .button-tab:hover{
     border-bottom: 1px solid white;
+    margin-bottom: 0;
   }
 
 
