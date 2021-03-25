@@ -4,11 +4,11 @@ const createContactContent = () => {
     tab.classList.add("contact");
 
     tab.innerHTML = ` 
-    <div class="home-container">
+    <div class="contact-container">
       <h1><b>Contact</b></h1>
       <ul>
         <p>Phone: 123-123-543</p>
-        <p>Mail: 123-123-543</p>
+        <p>Mail: labaguette@fakeemail.com</p>
         <p>Address: 123 Sandwich rd, baguetteville, Sweden </p>
       </ul>
     </div>
