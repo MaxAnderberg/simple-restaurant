@@ -45,6 +45,14 @@ body{
     margin-top: 5%;
 }
 
+#main p {
+    text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+}
+
 .card-container{
     width: 100%;
     color: white;
@@ -119,6 +127,7 @@ body{
   .home-container p{
       font-size: 20px;
       margin-top: 0px;
+
   }
 
   #contact-us{
