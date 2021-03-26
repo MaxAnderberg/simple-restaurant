@@ -5,7 +5,7 @@ const createHomeContent = () => {
 
     tab.innerHTML = ` 
     <div class="home-container">
-      <h1><b>Welcome to La Baguette</b></h1>
+      <h1><b>Welcome to Max' Sandwiches</b></h1>
       <p>We are lucky to live in a glorious age that gives us everything we 
       could ask for as a human race. What more could you need when 
       you have meat covered in cheese nestled between bread as a 

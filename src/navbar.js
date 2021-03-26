@@ -13,7 +13,7 @@ const navbarModule = (() => {
 const createHeader = () => {
 
     const navBar_header = document.createElement("h1");
-    navBar_header.textContent = "La Baguette"
+    navBar_header.textContent = "Max' Sandwiches"
     navBar_header.classList.add("navbar-header");
 
     return navBar_header;
