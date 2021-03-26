@@ -1,15 +1,19 @@
-import {loadTabsy} from './tabsy'
+import {
+    loadTabsy
+} from './tabsy'
 
 const navbarModule = (() => {
     const navbar = document.createElement("div");
     navbar.classList.add("navbar");
-    return {navbar};
+    return {
+        navbar
+    };
 })();
 
 const createHeader = () => {
 
     const navBar_header = document.createElement("h1");
-    navBar_header.textContent ="La Baguette"
+    navBar_header.textContent = "La Baguette"
     navBar_header.classList.add("navbar-header");
 
     return navBar_header;
@@ -29,4 +33,6 @@ const loadNavbar = () => {
     return navbarModule.navbar;
 }
 
-export {loadNavbar};
+export {
+    loadNavbar
+};

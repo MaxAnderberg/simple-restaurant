@@ -16,4 +16,6 @@ const createContactContent = () => {
     return tab;
 }
 
-export {createContactContent};
+export {
+    createContactContent
+};

@@ -15,8 +15,10 @@ const createHomeContent = () => {
     you have meat covered in cheese nestled between bread.</p>
     </div>
     `
-    
+
     return tab;
 }
 
-export {createHomeContent};
+export {
+    createHomeContent
+};
