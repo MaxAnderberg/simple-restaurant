@@ -10,7 +10,7 @@ const createHomeContent = () => {
       could ask for as a human race. What more could you need when 
       you have meat covered in cheese nestled between bread as a 
       complete meal.</p>
-    <img id="home-img" src="/images/pexels-photo-784633.jpeg" alt="Avatar">
+    <img id="home-img" src="/dist/images/pexels-photo-784633.jpeg" alt="Avatar">
     <p id="contact-us">What more could you need when 
     you have meat covered in cheese nestled between bread.</p>
     </div>
