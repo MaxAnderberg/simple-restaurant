@@ -13,8 +13,6 @@ import {
 
 import {createContactContent} from './contact';
 
-console.log("Hello World");
-
 const content = document.getElementById("content");
 
 content.appendChild(loadNavbar());
