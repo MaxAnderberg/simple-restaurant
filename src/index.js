@@ -62,9 +62,3 @@ buttonsArray.forEach(button => {
         }
     });
 });
-
-/*
-    1. When I click the button I want to load content for respective button
-    2. So if I click "menu" I want to load the menu content
-        1. The content should probably be stored in a div
-*/
